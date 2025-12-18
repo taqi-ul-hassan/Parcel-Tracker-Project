@@ -12,6 +12,7 @@ int main() {
         cout << "5.Track 6.Search Sender 7.Search Status\n";
         cout << "8.Enqueue 9.Process 10.Show Queue\n";
         cout << "11.Undo 0.Exit\n";
+        cout << "Data auto-saves on exit.\n";
         cin >> choice;
 
         switch (choice) {
